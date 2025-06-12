@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мельничук Т.С.</title>
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #111111;
+      --link-color: #0066cc;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #121212;
+        --text-color: #f1f1f1;
+        --link-color: #66aaff;
+      }
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .projects {
+      margin-top: 2rem;
+    }
+
+    .project {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://via.placeholder.com/150" alt="Фото профиля" class="profile-pic">
+    <h1>Мельничук Т.С.</h1>
+    <p>Сайт для себя</p>
+    <p><a href="https://vk.com/rutain" target="_blank">VK: rutain</a></p>
+
+    <div class="projects">
+      <h2>Работы / Проекты</h2>
+      <div class="project">
+        <strong>Проект 1:</strong> <a href="#">Описание или ссылка</a>
+      </div>
+      <div class="project">
+        <strong>Проект 2:</strong> <a href="#">Описание или ссылка</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
